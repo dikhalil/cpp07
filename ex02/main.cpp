@@ -6,7 +6,7 @@
 /*   By: dikhalil <dikhalil@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/17 15:43:07 by dikhalil          #+#    #+#             */
-/*   Updated: 2025/11/17 18:19:22 by dikhalil         ###   ########.fr       */
+/*   Updated: 2025/11/17 19:08:39 by dikhalil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 
 int main(void)
 {
-    
     try
     {
         Array<int> num1;

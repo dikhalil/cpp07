@@ -6,12 +6,23 @@
 /*   By: dikhalil <dikhalil@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/17 15:43:07 by dikhalil          #+#    #+#             */
-/*   Updated: 2025/11/17 17:09:36 by dikhalil         ###   ########.fr       */
+/*   Updated: 2025/11/17 19:19:08 by dikhalil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "iter.hpp"
 
+template <typename T>
+void print(const T& e)
+{
+    std::cout << e << std::endl;
+}
+
+template <typename T>
+void increment(T& e)
+{
+    e++;
+}
 
 void to_upper(std::string &str)
 {
