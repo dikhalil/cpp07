@@ -17,8 +17,8 @@
 #include <string>
 
 
-template <typename T>
-void iter(T *array, size_t const size, void (*f)(T &))
+template <typename T, typename F>
+void iter(T *array, size_t const size, F (*f)(T &))
 {
     for (size_t i = 0; i < size; i++)
         f(array[i]);
